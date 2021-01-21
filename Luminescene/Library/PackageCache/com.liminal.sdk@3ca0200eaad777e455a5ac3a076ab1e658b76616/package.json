@@ -1,0 +1,12 @@
+{
+    "name": "com.liminal.sdk",
+    "displayName": "Liminal",
+    "version": "2.0.0",
+    "unity": "2019.3",
+    "description": "Liminal SDK",
+    "keywords": [
+        "sdk",
+        "unity"
+    ],
+    "category": "Unity"
+}

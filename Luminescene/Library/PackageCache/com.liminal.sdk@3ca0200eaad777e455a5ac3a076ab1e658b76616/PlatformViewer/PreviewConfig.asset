@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a3c01ccdeb50541b24baa71f9ecfbd, type: 3}
+  m_Name: PreviewConfig
+  m_EditorClassIdentifier: 
+  EmulatorPath: W:/Limapps/Emulator/Clockwork-Emulator.limapp
+  AndroidPath: C:/Work/Unity/LiminalSdk-2019-3/Liminal-SDK-Unity-Package/Assets
+  AndroidAppFullName: app_999_gearvr_v1.limapp

@@ -1,0 +1,16 @@
+{
+    "name": "LiminalSdk",
+    "references": [
+        "Oculus.VR",
+        "SteamVR"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: d3479cd00e9818e47a8b08d6fac83303
+timeCreated: 1517965305
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Aeroplane_Propellor
+    100002: combined01
+    100004: combined02
+    100006: combined03
+    100008: combined04
+    100010: combined05
+    100012: combined06
+    100014: combined07
+    100016: combined07 1
+    100018: Horse
+    100020: Shuttle
+    100022: TRex
+    100024: //RootNode
+    400000: Aeroplane_Propellor
+    400002: combined01
+    400004: combined02
+    400006: combined03
+    400008: combined04
+    400010: combined05
+    400012: combined06
+    400014: combined07
+    400016: combined07 1
+    400018: Horse
+    400020: Shuttle
+    400022: TRex
+    400024: //RootNode
+    2300000: Aeroplane_Propellor
+    2300002: combined01
+    2300004: combined02
+    2300006: combined03
+    2300008: combined04
+    2300010: combined05
+    2300012: combined06
+    2300014: combined07 1
+    2300016: Horse
+    2300018: Shuttle
+    2300020: TRex
+    3300000: Aeroplane_Propellor
+    3300002: combined01
+    3300004: combined02
+    3300006: combined03
+    3300008: combined04
+    3300010: combined05
+    3300012: combined06
+    3300014: combined07 1
+    3300016: Horse
+    3300018: Shuttle
+    3300020: TRex
+    4300000: combined01
+    4300002: combined02
+    4300004: combined03
+    4300006: combined04
+    4300008: combined05
+    4300010: combined06
+    4300012: combined07
+    4300014: Horse
+    4300016: TRex
+    4300018: Shuttle
+    4300020: Aeroplane_Propellor
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumgroup1
+    second: {fileID: 2100000, guid: 3964caa408525304bb5649650763855c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumgroup2
+    second: {fileID: 2100000, guid: 4b2cf1da938b7ca41b7a02bbde1455c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumgroup3
+    second: {fileID: 2100000, guid: 9dbab50fd7f5db245979ddacbbc81e3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumgroup4
+    second: {fileID: 2100000, guid: 2ab9c1678c56c0b4fb619923215e54e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumgroup5
+    second: {fileID: 2100000, guid: 8f56fa0c0328e2144a3907a353dbf68a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumgroup6
+    second: {fileID: 2100000, guid: 7d15971179cd5764296c6f8dffe03b22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumgroup7
+    second: {fileID: 2100000, guid: 9c2c86628fc50ac498dac73194b20f5a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

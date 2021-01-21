@@ -1,0 +1,15 @@
+{
+    "name": "Platform",
+    "references": [
+        "External",
+        "LiminalSdk"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
