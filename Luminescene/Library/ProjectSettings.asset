@@ -402,7 +402,6 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
-    - OpenVR
     - Oculus
     - daydream
   m_BuildTargetEnableVuforiaSettings: []
