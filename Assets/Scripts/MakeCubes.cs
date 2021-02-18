@@ -10,7 +10,7 @@ public class MakeCubes : MonoBehaviour
         for (int i = 0; i < 20; i++)
         {
 
-            Instantiate<GameObject>(cube, new Vector3(Random.Range(-10, 10), Random.Range(-5, 5), 0), Quaternion.identity);
+            Instantiate<GameObject>(cube, new Vector3(Random.Range(-10, 10), Random.Range(-5, 5), 15), Quaternion.identity);
         }
     }
 
