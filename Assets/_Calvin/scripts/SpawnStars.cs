@@ -22,7 +22,7 @@ public class SpawnStars : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreateSpawnLocation", initialSpawnTime, repeatSpawnTime);
+        //InvokeRepeating("CreateSpawnLocation", initialSpawnTime, repeatSpawnTime);
     }
 
     // Update is called once per frame
@@ -39,6 +39,11 @@ public class SpawnStars : MonoBehaviour
         //}
     }
 
+
+    public void SpawnFirstStar()
+    {
+        Instantiate(star[0], spawnLocation[0].position, Quaternion.identity );
+    }
 
     void CreateSpawnLocation()
     {
