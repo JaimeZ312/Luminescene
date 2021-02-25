@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 2763988136688033384, guid: f7ea59b222ae28b4595c21c680eafe42,
         type: 3}
       propertyPath: TrailModule.enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2763988136688033384, guid: f7ea59b222ae28b4595c21c680eafe42,
         type: 3}
@@ -76,6 +76,21 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763988136688033384, guid: f7ea59b222ae28b4595c21c680eafe42,
+        type: 3}
+      propertyPath: TrailModule.mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763988136688033384, guid: f7ea59b222ae28b4595c21c680eafe42,
+        type: 3}
+      propertyPath: TrailModule.shadowBias
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763988136688033384, guid: f7ea59b222ae28b4595c21c680eafe42,
+        type: 3}
+      propertyPath: TrailModule.textureMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2763988136688033383, guid: f7ea59b222ae28b4595c21c680eafe42,
         type: 3}
