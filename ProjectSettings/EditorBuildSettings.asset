@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LiminalDemoScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/TestVFXScene.unity
-    guid: 80afccdf48f7bd047a3cfa65c262f8ba
+    path: Assets/Scenes/UpdatedCaveLayout.unity
+    guid: d3cdfc14bbd1f45498fa3c80f1def20e
   m_configObjects: {}

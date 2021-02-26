@@ -104,7 +104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fdd6da7ee8832478d4c3028551e7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleExplosion: {fileID: 0}
-  particleExplosionTwo: {fileID: 0}
+  particleExplosion: {fileID: 5349860993919201118, guid: 6a7a0100d4889264290bf1addc3546ee,
+    type: 3}
+  particleExplosionTwo: {fileID: 6760782801862612215, guid: 67a94f7aacafd9345917a2903cce35dc,
+    type: 3}
   minSpawnTime: 0
   maxSpawnTime: 0
