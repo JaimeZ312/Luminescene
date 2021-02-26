@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class ControlAlphaTimed : MonoBehaviour
 {
-
-    public Material matSphere;
-
+    public Material matRocks;
     public Renderer rend;
 
-    // Start is called before the first frame update
+    public float amountToDecrease = 10.0f;
+    public float timeForNextDecrease = 1.0f;
+    private float timeToDecrease = 0.0f;
+    private bool appliedMaterial = false;
+
     void Start()
     {
         Invoke("ApplyMaterial", 5.0f);
@@ -18,23 +20,17 @@ public class ControlAlphaTimed : MonoBehaviour
         rend.enabled = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if( appliedMaterial && timeToDecrease <= Time.time)
         {
-            Color color = matSphere.color;
-            color.a += 10f * Time.deltaTime;
-            matSphere.color = color;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            Color color = matSphere.color;
-            color.a -= 10f * Time.deltaTime;
-            matSphere.color = color;
+            Color color = matRocks.color;
+            color.a -= amountToDecrease * Time.deltaTime;
+            matRocks.color = color;
+            timeToDecrease = Time.time + timeForNextDecrease;
         }
 
-        if (matSphere.color.a <= 0)
+        if (matRocks.color.a <= 0)
         {
             rend.enabled = false;
         }
@@ -42,6 +38,7 @@ public class ControlAlphaTimed : MonoBehaviour
 
     void ApplyMaterial()
     {
-        GetComponent<Renderer>().material = matSphere;
+        GetComponent<Renderer>().material = matRocks;
+        appliedMaterial = true;
     }
 }
