@@ -12,6 +12,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Star Variant
       objectReference: {fileID: 0}
+    - target: {fileID: -7904718158179665781, guid: 9bf473902636dea4b91e2065d5e08732,
+        type: 3}
+      propertyPath: particleExplosionTwo
+      value: 
+      objectReference: {fileID: 5466731725079774598, guid: 8ea2912572f0dc443b37d902555c2250,
+        type: 3}
+    - target: {fileID: -7904718158179665781, guid: 9bf473902636dea4b91e2065d5e08732,
+        type: 3}
+      propertyPath: particleExplosion
+      value: 
+      objectReference: {fileID: 5349860993919201118, guid: 6a7a0100d4889264290bf1addc3546ee,
+        type: 3}
     - target: {fileID: 3408566813566009355, guid: 9bf473902636dea4b91e2065d5e08732,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67,17 +79,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7904718158179665781, guid: 9bf473902636dea4b91e2065d5e08732,
-        type: 3}
-      propertyPath: particleExplosionTwo
-      value: 
-      objectReference: {fileID: 7961029229895453479, guid: 71b719c677fd1884fbcd44f4bf4c377f,
-        type: 3}
-    - target: {fileID: -7904718158179665781, guid: 9bf473902636dea4b91e2065d5e08732,
-        type: 3}
-      propertyPath: particleExplosion
-      value: 
-      objectReference: {fileID: 5349860993919201118, guid: 6a7a0100d4889264290bf1addc3546ee,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf473902636dea4b91e2065d5e08732, type: 3}

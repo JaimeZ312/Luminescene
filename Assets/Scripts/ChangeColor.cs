@@ -21,16 +21,22 @@ public class ChangeColor : MonoBehaviour
 
     void ColorChange()
     {
+        Debug.Log("Color change called ");
         if (timeLeft > Time.deltaTime)
         {
-            GetComponent<Renderer>().material.color = Color.Lerp(oldMat.color, newMat.color, Time.deltaTime / timeLeft);
-
-            // update the timer
-            timeLeft -= Time.deltaTime;
+            Debug.Log(oldMat.GetColor("_EmissionColor"));
+            Debug.Log(newMat.GetColor("_EmissionColor"));
+            oldMat.SetColor("_EmissionColor", Color.Lerp(oldMat.GetColor("_EmissionColor"), newMat.GetColor("_EmissionColor"), Time.deltaTime / timeLeft));
+            
+            //GetComponent<Renderer>().material.GetColor("_EmissionColor");
+           // update the timer
+           timeLeft -= Time.deltaTime;
         }
         else
         {
-            Destroy(gameObject);
+            oldMat.SetTexture("_MainTex", newMat.GetTexture("_MainTex"));
+            oldMat.SetTexture("_EmissionMap", newMat.GetTexture("_EmissionMap"));
+            //Destroy(gameObject);
         }
     }
 }
