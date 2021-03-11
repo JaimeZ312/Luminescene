@@ -9,12 +9,12 @@ public class ControlAlphaTimed : MonoBehaviour
 
     public float amountToDecrease = 10.0f;
     public float timeForNextDecrease = 1.0f;
-    private float timeToDecrease = 0.0f;
+    private float timeToDecrease = 2.0f;
     private bool appliedMaterial = false;
 
     void Start()
     {
-        Invoke("ApplyMaterial", 5.0f);
+        Invoke("ApplyMaterial", 13f);
 
         rend = GetComponent<Renderer>();
         rend.enabled = true;
@@ -22,7 +22,7 @@ public class ControlAlphaTimed : MonoBehaviour
 
     void Update()
     {
-        if( appliedMaterial && timeToDecrease <= Time.time)
+        if (appliedMaterial && timeToDecrease <= Time.time)
         {
             Color color = matRocks.color;
             color.a -= amountToDecrease * Time.deltaTime;
