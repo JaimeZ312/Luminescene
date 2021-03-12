@@ -109,7 +109,7 @@ Material:
     - BumpParm: {r: 1, g: 1, b: -1, a: -1}
     - WaveSpeed: {r: 9.6877, g: 4.8189816, b: -7.913228, a: 2.8702974}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.15801877, g: 0.3525634, b: 0.6320754, a: 1}
+    - _Color: {r: 0.15801871, g: 0.35256335, b: 0.6320754, a: 1}
     - _ColorControlCube_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ColorControl_ST: {r: 1, g: 1, b: 0, a: 0}
     - _EdgeColor: {r: 0, g: 0.1, b: 0, a: 0.1}

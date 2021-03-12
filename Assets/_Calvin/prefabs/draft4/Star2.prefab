@@ -108,8 +108,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particleExplosion: {fileID: 7005127794810211898, guid: ec40342c8efcadc4280d10222a026351,
     type: 3}
-  minWaitTime: 0
-  maxWaitTime: 3
+  particleExplosionTwo: {fileID: 0}
+  minSpawnTime: 0
+  maxSpawnTime: 0
 --- !u!82 &-7907776147488139353
 AudioSource:
   m_ObjectHideFlags: 0
@@ -128,7 +129,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 75
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

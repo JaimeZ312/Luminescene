@@ -6,12 +6,16 @@ public class SpawnExplosion : MonoBehaviour
 {
 
     public GameObject particleExplosion;
-    public float minWaitTime = 0f;
-    public float maxWaitTime = 4f;
+    public GameObject particleExplosionTwo;
+
+
+    public float minSpawnTime;
+    public float maxSpawnTime;
 
     void Start()
     {
-        Invoke("Supernova", Random.Range(minWaitTime, maxWaitTime)) ;
+        //Invoke("Supernova", Random.Range(minSpawnTime,maxSpawnTime));
+        Invoke("Supernova", 0f);
 
     }
 
@@ -23,5 +27,7 @@ public class SpawnExplosion : MonoBehaviour
     void Supernova()
     {
         Instantiate(particleExplosion, transform.position, Quaternion.identity);
+        Instantiate(particleExplosionTwo, transform.position, Quaternion.identity);
+
     }
 }

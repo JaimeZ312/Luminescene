@@ -4,39 +4,30 @@ using UnityEngine;
 
 public class LightBehaviour : MonoBehaviour
 {
-    public float duration = 5.0f;
 
-    public float intensity = 5f;
-
-    float counter = 0f;
-
-    public List<Light> pointLights = new List<Light>();
+    Light pointLight;
     void Start()
     {
-        for (int i = 0; i < pointLights.Count; i++)
-        {
-            pointLights[i] = GetComponentInChildren<Light>();
-        }
+        pointLight = GetComponent<Light>();
+        CallCoroutine();
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator LerpFunction(float duration)
     {
-        /*float phi = Time.time / duration * 2 * Mathf.PI;
-        float amplitude = Mathf.Cos(phi) * intensity;
-        pointLight.intensity = amplitude;*/
+        float time = 0;
+        float initialValue = pointLight.intensity;
+
+        while (time < duration)
+        {
+            pointLight.intensity = Mathf.Lerp(-10, initialValue, time / duration);
+            time += Time.deltaTime;
+            yield return null;
+        }
+        pointLight.intensity = initialValue;
     }
 
-    public void BrightenUp()
+    void CallCoroutine()
     {
-        Debug.Log("Brighten Up called");
-        for (int i = 0; i < pointLights.Count; i++)
-        {
-            Debug.Log(pointLights.Count);
-            for (float counter = 0; counter < duration; counter += Time.deltaTime)
-            {
-                pointLights[i].intensity = Mathf.Lerp(0, 3, counter / duration);
-            }
-        }
+        StartCoroutine(LerpFunction(24));
     }
 }

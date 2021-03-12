@@ -12,7 +12,7 @@ public class FadeTest : MonoBehaviour
         materialToChange = gameObject.GetComponent<Renderer>().material;
         targetColor = materialToChange.color;
         targetColor.a = 0;
-        Invoke("CallCoroutine", 24f);
+        Invoke("CallCoroutine", 32f);
     }
 
     IEnumerator LerpFunction(Color endValue, float duration)
