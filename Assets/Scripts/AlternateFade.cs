@@ -6,7 +6,7 @@ public class AlternateFade : MonoBehaviour
 {
     float timeToStart;
     float timePassed;
-    public float duration;
+    float duration;
     Material oldMat;
     Color tempColor;
 
@@ -16,12 +16,12 @@ public class AlternateFade : MonoBehaviour
     void Start()
     {
         timePassed = 0f;
-        duration = 10f;
+        duration = 5f;
 
         oldMat = GetComponent<Renderer>().material;
         tempColor = oldMat.color;
 
-        Invoke("EnBool", 10f);
+        Invoke("EnBool", 2f);
     }
 
     // Update is called once per frame
@@ -37,14 +37,20 @@ public class AlternateFade : MonoBehaviour
     void ColourChange()
     {
         
-        if (timePassed < 1)
+        if (timePassed <= 1)
         {
-
             tempColor.a = Mathf.Lerp(oldMat.color.a, 0, timePassed);
             oldMat.color = tempColor;
             timePassed += Time.deltaTime / duration;
-
-
+        }
+        else
+        {
+            timePassed = 1;
+        }
+        if(timePassed == 1)
+        {
+            Debug.Log("else called");
+            this.gameObject.SetActive(false);
         }
     }
 

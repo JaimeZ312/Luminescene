@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4000014100003946}
   - component: {fileID: 33000010005163502}
   - component: {fileID: 23000012481216922}
+  - component: {fileID: 6666642359576254921}
   m_Layer: 0
   m_Name: Rock_01_LOD0
   m_TagString: Untagged
@@ -77,6 +78,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &6666642359576254921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010088095400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c422504b9404f38b8585ba4c6c71a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 10
 --- !u!1 &1000012011056762
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +102,7 @@ GameObject:
   - component: {fileID: 4000011639603152}
   - component: {fileID: 33000011072601882}
   - component: {fileID: 23000011618489832}
+  - component: {fileID: 6756848795493592910}
   m_Layer: 0
   m_Name: Rock_01_LOD2
   m_TagString: Untagged
@@ -154,6 +169,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &6756848795493592910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012011056762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c422504b9404f38b8585ba4c6c71a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 10
 --- !u!1 &1000012968262300
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +254,7 @@ GameObject:
   - component: {fileID: 4000011310828578}
   - component: {fileID: 33000012978943956}
   - component: {fileID: 23000011949978976}
+  - component: {fileID: 5924936524656769734}
   m_Layer: 0
   m_Name: Rock_01_LOD1
   m_TagString: Untagged
@@ -292,3 +321,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &5924936524656769734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000014277779934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c422504b9404f38b8585ba4c6c71a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 10

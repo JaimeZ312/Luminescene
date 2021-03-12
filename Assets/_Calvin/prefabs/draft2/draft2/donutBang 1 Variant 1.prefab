@@ -3936,7 +3936,7 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 1
+    enabled: 0
     mode: 1
     ratio: 0.2
     lifetime:
