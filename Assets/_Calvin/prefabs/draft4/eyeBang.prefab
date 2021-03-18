@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8660030763782612725}
   - component: {fileID: 2138468062980668314}
   m_Layer: 0
-  m_Name: coneBang 1
+  m_Name: eyeBang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,7 +116,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 60
+      scalar: 10
       minScalar: 5
       maxCurve:
         serializedVersion: 2
