@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/calvin_Final_Cave.unity
+    guid: 8624eca1c2de3c9449cdf27976df8dec
+  - enabled: 0
     path: Assets/Scenes/Cave_Layout_Calvin.unity
     guid: 59a1ecfe30924a44d966a5ebcbe0c72c
   - enabled: 0
