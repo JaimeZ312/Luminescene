@@ -6,7 +6,7 @@ public class PlayBoom : MonoBehaviour
 {
     private void Awake()
     {
-        Invoke("PlaySound", 1.5f);
+        Invoke("PlaySound", 0.9f);
     }
 
     public void PlaySound()

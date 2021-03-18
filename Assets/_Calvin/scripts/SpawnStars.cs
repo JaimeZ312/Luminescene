@@ -42,12 +42,12 @@ public class SpawnStars : MonoBehaviour
 
     public void SpawnFirstStar()
     {
-        Instantiate(star[0], spawnLocation[0].position, Quaternion.identity );
+        Instantiate(star[2], spawnLocation[1].position, Quaternion.identity );
     }
 
     public void SpawnSecondStar()
     {
-        Instantiate(star[2], spawnLocation[2].position, Quaternion.identity);
+        Instantiate(star[4], spawnLocation[2].position, Quaternion.identity);
     }
 
     public void SpawnThirdStar()
@@ -59,7 +59,6 @@ public class SpawnStars : MonoBehaviour
     public void SpawnLastStar()
     {
         Instantiate(star[0], spawnLocation[0].position, Quaternion.identity);
-        Instantiate(star[4], spawnLocation[0].position, Quaternion.identity);
     }
 
     void CreateSpawnLocation()

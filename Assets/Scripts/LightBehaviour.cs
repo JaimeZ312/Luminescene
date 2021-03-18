@@ -28,6 +28,6 @@ public class LightBehaviour : MonoBehaviour
 
     void CallCoroutine()
     {
-        StartCoroutine(LerpFunction(24));
+        StartCoroutine(LerpFunction(20));
     }
 }
