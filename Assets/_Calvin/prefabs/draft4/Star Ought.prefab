@@ -106,10 +106,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fdd6da7ee8832478d4c3028551e7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleExplosion: {fileID: 3763072798865968588, guid: 4346816ac02e89944a366eb2a1ebb358,
+  particleExplosion: {fileID: 670733264014855699, guid: e138abda75dfd894ca3e314a99b999b6,
     type: 3}
-  minWaitTime: 0
-  maxWaitTime: 3
+  particleExplosionTwo: {fileID: 6999718721017857572, guid: 034186931fd4df74e8efcd235e1666c7,
+    type: 3}
+  minSpawnTime: 0
+  maxSpawnTime: 0
 --- !u!82 &2003645198640186967
 AudioSource:
   m_ObjectHideFlags: 0
@@ -128,12 +130,12 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 60
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0

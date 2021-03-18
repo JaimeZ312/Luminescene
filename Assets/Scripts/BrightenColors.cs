@@ -8,8 +8,7 @@ public class BrightenColors : MonoBehaviour
     float timePassed;
     public float duration;
     Material oldMat;
-    Color oldColor;
-    Color tempColor;
+    Color oldColor, newColor;
 
     private void Start()
     {
@@ -17,20 +16,27 @@ public class BrightenColors : MonoBehaviour
         duration = 10;
         oldMat = GetComponent<Renderer>().material;
         oldColor = oldMat.GetColor("_EmissionColor");
-        tempColor = oldMat.color;
+        newColor = oldColor * 4;
+        //Invoke("CallCoroutine", 6f);
+        CallCoroutine();
     }
-    void Update()
+
+    IEnumerator LerpFunction(float duration)
     {
-        ColorChange();
-    }
-    void ColorChange()
-    {
-        oldMat.SetColor("_EmissionColor", oldColor * Mathf.Lerp(-10, 4, timePassed));
-        tempColor.a = Mathf.Lerp(oldMat.color.a, 0, timePassed);
-        oldMat.color = tempColor;
-        if (timePassed < 1)
+        float time = 0;
+        Color startValue = oldColor;
+
+        while (time < duration)
         {
-            timePassed += Time.deltaTime / duration;
+            oldMat.SetColor("_EmissionColor", oldColor * Mathf.Lerp(-10, 1, time / duration));
+            time += Time.deltaTime;
+            yield return null;
         }
+        oldMat.SetColor("_EmissionColor", oldColor * 1);
+    }
+
+    void CallCoroutine()
+    {
+        StartCoroutine(LerpFunction(20));
     }
 }
